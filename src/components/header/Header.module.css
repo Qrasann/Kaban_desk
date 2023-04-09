@@ -1,0 +1,108 @@
+.dropMenuButton:hover {
+  cursor: pointer;
+  background-color: #d8dfe2;
+}
+.userProfile :hover {
+  cursor: pointer;
+}
+
+.header {
+  background: #0067a3;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 20px 11px 20px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.userProfile {
+  padding-right: 22px;
+}
+
+.avatar {
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.dropMenu {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 134px;
+  position: absolute;
+  width: 134px;
+  height: auto;
+  right: 35px;
+  top: 57px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: #000000;
+}
+.dropMenuButton {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: #000000;
+  background-color: #fff;
+  text-align: left;
+}
+
+.dropArrow {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  right: 75px;
+  top: 52px;
+  background: #ffffff;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 1147px) {
+  body {
+    max-width: 100%;
+  }
+  .header {
+    min-width: none;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  body {
+    min-width: none;
+    max-width: 100%;
+  }
+  .desctop {
+    display: none;
+  }
+
+  .header {
+    justify-content: end;
+    min-width: none;
+    max-width: 100%;
+  }
+
+  .userProfile {
+    padding-right: 0px;
+  }
+}
